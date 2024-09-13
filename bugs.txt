@@ -1,0 +1,7 @@
+Bugs in Class.java
+-----------------------
+- Project would not build with the @Serial annotation after import wildcards were fixed according to the Java Style Guide. Fixed by removing the @Serial annotation.
+- enrollStudent() had incorrect implementation logic (failed unit tests). 
+- dropStudent() had incorrect implementation logic (failed unit tests).
+- getCourseLocation() had incorrect implementation, and rather than returning the course location, returned the instructor's name (failed unit tests).
+- getInstructorName() had incorrect implementation, and rather than returning the instructor's name, returned the course location (failed unit tests).
