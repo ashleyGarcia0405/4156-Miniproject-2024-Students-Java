@@ -1,0 +1,15 @@
+Bugs in Course.java
+-----------------------
+- Project would not build with the @Serial annotation after import wildcards were fixed according to the Java Style Guide. Fixed by removing the @Serial annotation.
+- enrollStudent() had incorrect implementation logic (failed unit tests). 
+- dropStudent() had incorrect implementation logic (failed unit tests).
+- getCourseLocation() had incorrect implementation, and rather than returning the course location, returned the instructor's name (failed unit tests).
+- getInstructorName() had incorrect implementation, and rather than returning the instructor's name, returned the course location (failed unit tests).
+
+
+Bugs in Department.java
+----------------------------
+- getNumberOfMajors() returns the negative of the number of majors (failed unit tests).
+- getDepartmentChair() returns the string "this.departmentChair" instead of the department chair (failed unit tests).
+- toString() returns the string "result.toString()" rather than result.toString()
+- dropPersonFromMajor() needed an if statement for correct implementation (so there would not be negative students in a major).
